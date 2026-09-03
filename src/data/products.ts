@@ -1,0 +1,23 @@
+import type { Product } from "../types";
+export const products: Product[] = [
+  { id: "p-gsb600", name: "Bosch GSB 600 Drill", category: "Power Tools", sku: "06011A03F0" },
+  { id: "p-grinder", name: "Bosch Angle Grinder 4in", category: "Power Tools", sku: "06013960F0" },
+  { id: "p-jigsaw", name: "Makita Compact Jigsaw", category: "Power Tools", sku: "4329K" },
+  { id: "p-driver", name: "Dewalt Impact Driver", category: "Power Tools", sku: "DCF887" },
+  { id: "p-hammer", name: "Stanley Claw Hammer", category: "Hand Tools", sku: "51-163" },
+  { id: "p-level", name: "Stabila Spirit Level 60cm", category: "Hand Tools", sku: "70-2-60" },
+  { id: "p-tape", name: "Stanley Measuring Tape 5m", category: "Hand Tools", sku: "STHT30626" },
+  { id: "p-helmet", name: "3M Safety Helmet", category: "Safety", sku: "H-700R" },
+  { id: "p-gloves", name: "Ansell Work Gloves", category: "Safety", sku: "11-840" },
+  { id: "p-mask", name: "3M Dust Mask (Pack 10)", category: "Safety", sku: "8210" },
+  { id: "p-bulb", name: "Philips LED Bulb 12W", category: "Electrical", sku: "929001" },
+  { id: "p-cable", name: "Havells 2.5mm Cable (90m)", category: "Electrical", sku: "HRFR25" },
+  { id: "p-switch", name: "Anchor Modular Switch", category: "Electrical", sku: "59501" },
+  { id: "p-paint", name: "Asian Paints Primer 4L", category: "Finishes", sku: "AP-P4" },
+  { id: "p-roller", name: "Paint Roller 9in", category: "Finishes", sku: "PR-9" },
+  { id: "p-adhesive", name: "Fevicol SH 1kg", category: "Adhesives", sku: "SH1000" },
+  { id: "p-screws", name: "Wurth Wood Screws 50mm", category: "Fasteners", sku: "WS50" },
+  { id: "p-anchors", name: "Fischer Wall Anchors", category: "Fasteners", sku: "DUOPOWER8" },
+  { id: "p-sandpaper", name: "Bosch Sandpaper Assortment", category: "Consumables", sku: "260860" },
+  { id: "p-saw", name: "Bahco Hand Saw", category: "Hand Tools", sku: "PC-19" },
+];

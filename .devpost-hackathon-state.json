@@ -1,0 +1,44 @@
+{
+  "plugin": "devpost-hackathon",
+  "version": 2,
+  "hackathon": {
+    "slug": "webmcp",
+    "name": "The WebMCP Challenge",
+    "url": "https://webmcp.devpost.com/",
+    "selected": true,
+    "source": "search"
+  },
+  "participant": {
+    "name": "",
+    "display_name": "Shashank Kumar Singh"
+  },
+  "project": {
+    "name": "Merchant Stock Rescue",
+    "summary": "A WebMCP-enabled local merchant inventory network where an agent finds nearby stock and prepares a transfer while the merchant retains approval authority.",
+    "ai_usage": "OpenAI Codex was used for architecture, implementation, tests, browser QA, deployment, and submission drafting.",
+    "codex_usage": "Codex coordinated focused workers, integrated the shared approval state, verified the WebMCP contracts, and prepared the delivery assets."
+  },
+  "current_stage": "prepare-submission",
+  "completed_stages": [
+    "start-hackathon",
+    "review",
+    "resources",
+    "build"
+  ],
+  "rules_acknowledged": true,
+  "learning": {
+    "status": "active",
+    "current_step": "submission",
+    "completed_steps": [
+      "onboard",
+      "build"
+    ],
+    "plan_file": "",
+    "checklist_file": ""
+  },
+  "submission": {
+    "draft_file": "docs/submission/devpost-draft.md",
+    "status": "drafted"
+  },
+  "next_command": "prepare-submission"
+}
