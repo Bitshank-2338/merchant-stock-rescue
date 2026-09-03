@@ -1,6 +1,6 @@
 import { beforeEach, describe, expect, it } from "vitest";
 import { appStore } from "../store/app-store";
-import { createInventoryTools } from "./WebMCPTools";
+import { createInventoryTools } from "./inventory-tools";
 
 const expectedNames = [
   "inventory.search_network_stock",
