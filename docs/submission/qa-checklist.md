@@ -11,5 +11,5 @@
 - [x] Add and verify the public repository and live HTTPS URLs.
 - [x] Review the public repository for secrets before publishing.
 - [x] Render and verify a narrated 2:24, 1080p demo video.
-- [ ] Upload the rendered MP4 to YouTube as public and add its URL.
-- [ ] Run the optional final Chrome Inspector confidence check before publishing the video.
+- [x] Upload the rendered MP4 to YouTube as public and add its URL.
+- [ ] Run the optional final Chrome Inspector confidence check before the final Devpost submission.

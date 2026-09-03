@@ -64,9 +64,9 @@ There is no persistence, authentication, network inventory, or real transfer ful
 
 - Repository: https://github.com/Bitshank-2338/merchant-stock-rescue
 - Live demo: https://merchant-stock-rescue.vercel.app
-- Video: **TODO: add demo video URL**
+- Video: https://youtu.be/7y7lrQ9dUPQ
 
-A narrated 2:24 draft video is rendered locally at `output/video/merchant-stock-rescue-demo.mp4` and only needs public YouTube upload.
+A narrated 2:24 demo is published publicly on YouTube, with the verified source MP4 retained at `output/video/merchant-stock-rescue-demo.mp4`.
 
 ## License
 

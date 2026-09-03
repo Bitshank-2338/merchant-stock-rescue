@@ -54,5 +54,5 @@ For the demo, run `npm run dev`, use a compatible Chrome WebMCP flag in a secure
 
 - Source repository: https://github.com/Bitshank-2338/merchant-stock-rescue
 - Live demo (HTTPS): https://merchant-stock-rescue.vercel.app
-- Demo video (≤3 minutes): **TODO**
+- Demo video (≤3 minutes): https://youtu.be/7y7lrQ9dUPQ
 - Screenshots: `output/playwright/merchant-stock-rescue-proposal.png`, `merchant-stock-rescue-approved.png`, `merchant-stock-rescue-committed.png`

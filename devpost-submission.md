@@ -90,7 +90,9 @@ https://github.com/Bitshank-2338/merchant-stock-rescue
 
 ## Demo Video
 
-The narrated 2:24 MP4 is rendered at `output/video/merchant-stock-rescue-demo.mp4`. **TODO — required:** upload it to YouTube as a public video and add the URL here.
+https://youtu.be/7y7lrQ9dUPQ
+
+The narrated 2:24 demo is published publicly on the `@iamshashankthedev` YouTube channel. The verified source MP4 is retained at `output/video/merchant-stock-rescue-demo.mp4`.
 
 ## Screenshot Shot List
 
@@ -105,7 +107,7 @@ The narrated 2:24 MP4 is rendered at `output/video/merchant-stock-rescue-demo.mp
 - Public source repository: ready; MIT license visible at repository root.
 - Automated test/build proof: ready; 11/11 tests pass.
 - Desktop/mobile screenshots: ready.
-- Narrated 2:24 video: rendered and verified as 1080p H.264 with AAC audio; public YouTube URL still required.
+- Narrated 2:24 video: published publicly at https://youtu.be/7y7lrQ9dUPQ and verified as 1080p H.264 with AAC audio.
 - Optional final confidence step: run the same five-tool flow in Chrome with the official Model Context Tool Inspector before recording.
 
 ## Known Limitations
