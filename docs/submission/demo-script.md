@@ -1,5 +1,7 @@
 # Demo script (≤3 minutes)
 
+Rendered deliverable: `output/video/merchant-stock-rescue-demo.mp4` (2:24, 1920×1080, H.264 video + AAC narration). The full narration is in `video-narration.txt`.
+
 **0:00–0:20 — Frame the problem.** “A merchant is short on a product. The agent can do the searching and coordination, but the merchant—not the agent—authorizes moving stock.”
 
 **0:20–0:55 — Show discovery.** Open the app and point out the seeded request, ranked nearby sources, and WebMCP status. Call `inventory.search_network_stock`, then `inventory.get_source_details` for the selected source.

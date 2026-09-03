@@ -90,7 +90,7 @@ https://github.com/Bitshank-2338/merchant-stock-rescue
 
 ## Demo Video
 
-**TODO — required:** Record and publish a public YouTube video with audio, under 3 minutes. Use `docs/submission/demo-script.md`.
+The narrated 2:24 MP4 is rendered at `output/video/merchant-stock-rescue-demo.mp4`. **TODO — required:** upload it to YouTube as a public video and add the URL here.
 
 ## Screenshot Shot List
 
@@ -105,7 +105,7 @@ https://github.com/Bitshank-2338/merchant-stock-rescue
 - Public source repository: ready; MIT license visible at repository root.
 - Automated test/build proof: ready; 11/11 tests pass.
 - Desktop/mobile screenshots: ready.
-- Public narrated video: missing and required.
+- Narrated 2:24 video: rendered and verified as 1080p H.264 with AAC audio; public YouTube URL still required.
 - Optional final confidence step: run the same five-tool flow in Chrome with the official Model Context Tool Inspector before recording.
 
 ## Known Limitations

@@ -28,6 +28,7 @@ describe("merchant inventory store", () => {
     const commit = appStore.commitTransfer(prepared.ok ? prepared.data.id : "");
     expect(commit).toEqual({ ok: false, error: expect.objectContaining({ code: "HUMAN_APPROVAL_REQUIRED" }) });
     expect(stock()).toBe(before);
+    expect(appStore.getSnapshot().activity.at(-1)?.action).toBe("Commit blocked by approval gate");
   });
 
   it("commits exactly once after approval and returns an audit receipt", () => {

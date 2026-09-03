@@ -1,0 +1,11 @@
+Merchant Stock Rescue is a Web M C P demo for independent merchants. When a store is out of stock, an agent handles the repetitive search and coordination, while the merchant keeps authority over whether inventory actually moves.
+
+The seeded request needs two Bosch G S B six hundred drills today. The search tool returns four nearby sources, ranked by price, distance, pickup time, and reliability. The agent can also inspect one source before acting. All data is deterministic and browser local, so the demo is safe and repeatable.
+
+The agent prepares transfer T R zero zero zero one from Bosch Tools Indiranagar to Ace Hardware Koramangala. Preparation creates this visible proposal with product, quantity, value, and pickup estimate, but it does not reserve or change inventory. When the agent tries to commit immediately, the tool returns human approval required. The blocked attempt is recorded in the timeline.
+
+Only the merchant can cross the approval boundary. There is no approval tool for the agent. The merchant reviews the proposal and clicks Approve transfer in the visible interface. The audit trail labels this as a human action, and the app now waits for the agent to finish the operational work.
+
+After approval, the same commit tool succeeds exactly once. It returns transaction T X N, T R zero zero zero one, reduces source availability from eight to six, and records the agent action. The status tool then verifies that the transfer is committed and approved by a human. Duplicate, rejected, stale, invalid, and insufficient stock paths return structured failures.
+
+The app registers exactly five imperative Web M C P tools on one shared state store. It is built with React and TypeScript, tested with eleven automated checks plus a real Chromium browser flow, deployed on Vercel, and released under the M I T license. The principle is simple: the agent gets the labor; the merchant keeps the authority.

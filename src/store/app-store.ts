@@ -276,9 +276,16 @@ class AppStore {
   commitTransfer(id: string): ToolResult<TransferReceipt> {
     const existing = this.find(id);
     if (!existing) return fail("INVALID_TRANSFER_ID", "No transfer exists with that ID.");
-    if (existing.status === "committed") return fail("ALREADY_COMMITTED", "This transfer was already committed.");
-    if (existing.status === "rejected") return fail("PROPOSAL_REJECTED", "A rejected transfer cannot be committed.");
+    if (existing.status === "committed") {
+      this.addActivity("agent", "Duplicate commit blocked", `${id} was already committed; inventory was not changed again.`);
+      return fail("ALREADY_COMMITTED", "This transfer was already committed.");
+    }
+    if (existing.status === "rejected") {
+      this.addActivity("agent", "Commit blocked", `${id} was rejected by the merchant.`);
+      return fail("PROPOSAL_REJECTED", "A rejected transfer cannot be committed.");
+    }
     if (existing.status !== "approved" || !existing.approvedByHuman) {
+      this.addActivity("agent", "Commit blocked by approval gate", `${id} still requires a visible merchant approval.`);
       return fail("HUMAN_APPROVAL_REQUIRED", "A merchant must approve this proposal in the visible UI first.");
     }
 
@@ -286,6 +293,7 @@ class AppStore {
       (item) => item.merchantId === existing.sourceMerchantId && item.productId === existing.productId,
     );
     if (!sourceRecord || sourceRecord.quantity < existing.quantity) {
+      this.addActivity("agent", "Commit blocked by stale stock", `${id} no longer has enough source inventory.`);
       return fail("INSUFFICIENT_QUANTITY", "This proposal is stale because source stock is now insufficient.");
     }
 
