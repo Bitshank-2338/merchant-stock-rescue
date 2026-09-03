@@ -18,12 +18,13 @@
     "ai_usage": "OpenAI Codex was used for architecture, implementation, tests, browser QA, deployment, and submission drafting.",
     "codex_usage": "Codex coordinated focused workers, integrated the shared approval state, verified the WebMCP contracts, and prepared the delivery assets."
   },
-  "current_stage": "prepare-submission",
+  "current_stage": "submit-project",
   "completed_stages": [
     "start-hackathon",
     "review",
     "resources",
-    "build"
+    "build",
+    "submit-project"
   ],
   "rules_acknowledged": true,
   "learning": {
@@ -38,7 +39,9 @@
   },
   "submission": {
     "draft_file": "devpost-submission.md",
-    "status": "drafting"
+    "status": "submitted",
+    "submission_id": 1169466,
+    "public_url": "https://devpost.com/software/merchant-stock-rescue"
   },
-  "next_command": "prepare-submission"
+  "next_command": "hackathon-map"
 }

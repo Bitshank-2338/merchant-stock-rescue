@@ -117,9 +117,9 @@ The narrated 2:24 demo is published publicly on the `@iamshashankthedev` YouTube
 - Candidate distances and reliability values are deterministic demo data, not live measurements.
 - WebMCP availability depends on a compatible browser/flag; the human dashboard still works without it.
 
-## TODO Official Form Fields
+## Confirmed Official Form Fields
 
-Proposed answers based on the current project; confirm personal facts before final submission:
+Answers confirmed by the participant for final submission:
 
 - **28249 — Submitter Type:** Individual
 - **28250 — Country of residence:** India
