@@ -37,8 +37,8 @@
     "checklist_file": ""
   },
   "submission": {
-    "draft_file": "docs/submission/devpost-draft.md",
-    "status": "drafted"
+    "draft_file": "devpost-submission.md",
+    "status": "drafting"
   },
   "next_command": "prepare-submission"
 }
